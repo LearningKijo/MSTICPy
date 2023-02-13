@@ -93,3 +93,11 @@ Covering #leverage Microsoft 365 Defender.
  'MDE.user_logons',
  'MDE.user_network',
  'MDE.user_processes']
+
+| QueryGroup | Query | Description | Req-Params | Table | 
+| :-- | :-- | :-- | :-- | :-- |
+| M365D | list_alerts | Retrieves list of alerts | end (datetime), start (datetime) | AlertInfo |
+
+
+[Data Queries Reference](https://msticpy.readthedocs.io/en/latest/data_acquisition/DataQueries.html#queries-for-microsoft-365-defender)
+Ex) md_prov.M365D.list_alerts(start=-7)
