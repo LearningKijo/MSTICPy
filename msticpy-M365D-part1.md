@@ -5,10 +5,10 @@ In Part1, I am going to cover the fundamental use of msticpy for Microsoft 365 D
 3. Try a query in msticpy, Microsoft 365 Defender
 4. Understand the detail of query in msticpy, Microsoft 365 Defender
 
-## Connect | Microsoft 365 Defender 
+## 1. Connect to the provider, Microsoft 365 Defender
 ![image](https://user-images.githubusercontent.com/120234772/218461249-e3fc945d-4d49-471b-8b04-ea0bc6332d37.png)
 
-## List | Microsoft 365 Defender 
+## 2. Confirm the available lists in msticpy, Microsoft 365 Defender 
 ![image](https://user-images.githubusercontent.com/120234772/218461392-97fa287a-94ec-40a0-a229-5d200a963ef4.png)
 
   When you typed **"md_prov.list_queries()"**, you can see there are a number of queries for Microsoft 365 Defender.
@@ -99,7 +99,7 @@ In Part1, I am going to cover the fundamental use of msticpy for Microsoft 365 D
  'MDE.user_network',
  'MDE.user_processes']
 
-## Usage | Microsoft 365 Defender 
+## 3. Try a query in msticpy, Microsoft 365 Defender
 Under [msticpy | Data Queries Reference](https://msticpy.readthedocs.io/en/latest/data_acquisition/DataQueries.html#queries-for-microsoft-365-defender), it covers the use of Microsoft 365 Defender. Below is an example that shows the alert lists in Microsoft 365 Defender.
 
 Example) 
@@ -110,7 +110,7 @@ Example)
 
 ![image](https://user-images.githubusercontent.com/120234772/218467980-43b40976-1d28-4149-824b-4e24bb17a172.png)
 
-## Detail | Microsoft 365 Defender
+## 4. Understand the detail of query in msticpy, Microsoft 365 Defender
 For instance, when you use **"M365D.list_alerts"**, this query is working in backend in kql_mdatp_alerts.yaml.
 
 ```
