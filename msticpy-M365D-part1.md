@@ -1,5 +1,9 @@
 # msticpy - Microsoft 365 Defender 
-Covering #leverage Microsoft 365 Defender.
+In Part1, I am going to cover the fundamental use of msticpy for Microsoft 365 Defender.
+1. Connect to Microsoft 365 Defender
+2. Confirm the available lists in msticpy, Microsoft 365 Defender
+3. The use of msticpy for Microsoft 365 Defender
+4. The detail of  msticpy for Microsoft 365 Defender
 
 ## Connect | Microsoft 365 Defender 
 ![image](https://user-images.githubusercontent.com/120234772/218461249-e3fc945d-4d49-471b-8b04-ea0bc6332d37.png)
