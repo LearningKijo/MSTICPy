@@ -1,11 +1,14 @@
 # msticpy - Microsoft 365 Defender 
-Covering #Getting Started and leverage Microsoft 365 Defender.
+Covering #leverage Microsoft 365 Defender.
 
+## Demo | Microsoft 365 Defender 
 ![image](https://user-images.githubusercontent.com/120234772/218461249-e3fc945d-4d49-471b-8b04-ea0bc6332d37.png)
 
 ![image](https://user-images.githubusercontent.com/120234772/218461392-97fa287a-94ec-40a0-a229-5d200a963ef4.png)
 
-> ['M365D.application_alerts',
+  When you typed **"md_prov.list_queries()"**, you can see there are a number of queries for Microsoft 365 Defender.
+> Output :
+['M365D.application_alerts',
  'M365D.host_alerts',
  'M365D.ip_alerts',
  'M365D.list_alerts',
