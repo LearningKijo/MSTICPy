@@ -108,7 +108,6 @@ Example)
 
 ## Detail | Microsoft 365 Defender
 
-https://github.com/microsoft/msticpy/blob/main/msticpy/data/queries/m365d/kql_mdatp_alerts.yaml
 
 ```
 25 sources:
@@ -124,4 +123,5 @@ https://github.com/microsoft/msticpy/blob/main/msticpy/data/queries/m365d/kql_md
 35      uri: None
 36    parameters:
  ```
+> GitHub : msticpy/msticpy/data/queries/m365d/[kql_mdatp_alerts.yaml](https://github.com/microsoft/msticpy/blob/main/msticpy/data/queries/m365d/kql_mdatp_alerts.yaml)
 
