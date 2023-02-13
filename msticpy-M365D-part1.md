@@ -129,3 +129,5 @@ For instance, when you use **"M365D.list_alerts"**, this query is working in bac
  ```
 > GitHub : msticpy/msticpy/data/queries/m365d/[kql_mdatp_alerts.yaml](https://github.com/microsoft/msticpy/blob/main/msticpy/data/queries/m365d/kql_mdatp_alerts.yaml)
 
+#### Disclaimer 
+The views and opinions expressed herein are those of the author and do not necessarily reflect the views of company.
