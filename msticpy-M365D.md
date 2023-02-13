@@ -106,3 +106,22 @@ Example)
 
 ![image](https://user-images.githubusercontent.com/120234772/218467980-43b40976-1d28-4149-824b-4e24bb17a172.png)
 
+## Detail | Microsoft 365 Defender
+
+https://github.com/microsoft/msticpy/blob/main/msticpy/data/queries/m365d/kql_mdatp_alerts.yaml
+
+```
+25 sources:
+26   list_alerts:
+27    description: Retrieves list of alerts
+28    metadata:
+29    args:
+30      query: "
+31        {table}
+32        | where Timestamp >= datetime({start})
+33        | where Timestamp <= datetime({end})
+34        {add_query_items}"
+35      uri: None
+36    parameters:
+ ```
+
