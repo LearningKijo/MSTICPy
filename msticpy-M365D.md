@@ -107,7 +107,7 @@ Example)
 ![image](https://user-images.githubusercontent.com/120234772/218467980-43b40976-1d28-4149-824b-4e24bb17a172.png)
 
 ## Detail | Microsoft 365 Defender
-
+For instance, when you use **"M365D.list_alerts"**, this query is working in backend in kql_mdatp_alerts.yaml.
 
 ```
 25 sources:
