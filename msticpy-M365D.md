@@ -1,9 +1,10 @@
 # msticpy - Microsoft 365 Defender 
 Covering #leverage Microsoft 365 Defender.
 
-## Demo | Microsoft 365 Defender 
+## Connect | Microsoft 365 Defender 
 ![image](https://user-images.githubusercontent.com/120234772/218461249-e3fc945d-4d49-471b-8b04-ea0bc6332d37.png)
 
+## List | Microsoft 365 Defender 
 ![image](https://user-images.githubusercontent.com/120234772/218461392-97fa287a-94ec-40a0-a229-5d200a963ef4.png)
 
   When you typed **"md_prov.list_queries()"**, you can see there are a number of queries for Microsoft 365 Defender.
@@ -94,10 +95,14 @@ Covering #leverage Microsoft 365 Defender.
  'MDE.user_network',
  'MDE.user_processes']
 
+## Usage | Microsoft 365 Defender 
+Under [msticpy | Data Queries Reference](https://msticpy.readthedocs.io/en/latest/data_acquisition/DataQueries.html#queries-for-microsoft-365-defender), it covers the use of Microsoft 365 Defender. Below is an example that shows the alert lists in Microsoft 365 Defender.
+
+Example) 
 | QueryGroup | Query | Description | Req-Params | Table | 
 | :-- | :-- | :-- | :-- | :-- |
 | M365D | list_alerts | Retrieves list of alerts | end (datetime), start (datetime) | AlertInfo |
+> Ex : md_prov.M365D.list_alerts(start=-7)
 
+![image](https://user-images.githubusercontent.com/120234772/218467980-43b40976-1d28-4149-824b-4e24bb17a172.png)
 
-[Data Queries Reference](https://msticpy.readthedocs.io/en/latest/data_acquisition/DataQueries.html#queries-for-microsoft-365-defender)
-Ex) md_prov.M365D.list_alerts(start=-7)
