@@ -13,7 +13,8 @@ Microsoft Defender for Endpoint : WindowsDefenderATP
 
 ![image](https://user-images.githubusercontent.com/120234772/219311297-c5d520d0-0d77-40be-bf7a-28d5c47e0ab5.png)
 
-**Please save the secret once you created !!**
-> Client secret values cannot be viewed, except for immediately after creation. Be sure to save the secret when created before leaving the page.
+**Please save the secret once you created !!** 
+> Client secret values cannot be viewed, except for immediately after creation. <br>
+Be sure to save the secret when created before leaving the page.
 
 ![image](https://user-images.githubusercontent.com/120234772/219384551-7a21c12c-b2c1-4826-8753-76888f8eabed.png)
