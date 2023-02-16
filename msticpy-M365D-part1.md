@@ -113,6 +113,11 @@ Example)
 
 ![image](https://user-images.githubusercontent.com/120234772/218467980-43b40976-1d28-4149-824b-4e24bb17a172.png)
 
+
+> Ex : md_prov.M365D.list_alerts(start=-30, add_query_items="| summarize count() by Severity")
+
+![image](https://user-images.githubusercontent.com/120234772/219261376-6b63ce60-5cc3-493b-b090-aa106acbbf20.png)
+
 ## 4. Understand the detail of query in msticpy, Microsoft 365 Defender
 For instance, when you use **"M365D.list_alerts"**, this query is working in backend in kql_mdatp_alerts.yaml.
 
