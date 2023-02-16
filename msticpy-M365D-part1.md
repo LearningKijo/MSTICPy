@@ -5,6 +5,9 @@ In Part1, I am going to cover the fundamental use of msticpy for Microsoft 365 D
 3. Try a query in msticpy, Microsoft 365 Defender
 4. Understand the detail of query in msticpy, Microsoft 365 Defender
 
+## 0. Prerequisite
+Before connecting to the provider, Microsoft 365 Defender, a few preparations are necessary - [MSTICPy | Microsoft 365 Defender Provider](https://msticpy.readthedocs.io/en/latest/data_acquisition/DataProv-MSDefender.html). In this page, I am covering the use for msticpy, Microsoft 365 Defender, on the local device, NOT Notebooks, Microsoft Sentinel.
+
 ## 1. Connect to the provider, Microsoft 365 Defender
 ![image](https://user-images.githubusercontent.com/120234772/218461249-e3fc945d-4d49-471b-8b04-ea0bc6332d37.png)
 
