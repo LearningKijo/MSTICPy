@@ -118,6 +118,8 @@ Example)
 
 ![image](https://user-images.githubusercontent.com/120234772/219261376-6b63ce60-5cc3-493b-b090-aa106acbbf20.png)
 
+By adding **add_query_items="xxxxxx"** to the date, you can get the enriched data as well. As you can see the next section - 4. Understand the detail of query in msticpy, {add_query_items} | [code:34] was available for each queries. 
+
 ## 4. Understand the detail of query in msticpy, Microsoft 365 Defender
 For instance, when you use **"M365D.list_alerts"**, this query is working in backend in kql_mdatp_alerts.yaml.
 
