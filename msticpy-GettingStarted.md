@@ -8,4 +8,5 @@ First of all, I am going to cover leveraging msticpy in **"Local Machine"** envi
 
 ## 1. Creating a Client App for M365D
 
-![image](https://user-images.githubusercontent.com/120234772/219295093-a2ef84ad-0472-435d-ad41-c51f848b9834.png)
+![image](https://user-images.githubusercontent.com/120234772/219311297-c5d520d0-0d77-40be-bf7a-28d5c47e0ab5.png)
+
