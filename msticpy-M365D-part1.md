@@ -116,7 +116,7 @@ Example)
 
 > Ex : md_prov.M365D.list_alerts(start=-30, add_query_items="| summarize count() by Severity")
 
-![image](https://user-images.githubusercontent.com/120234772/219261376-6b63ce60-5cc3-493b-b090-aa106acbbf20.png)
+![image](https://user-images.githubusercontent.com/120234772/219263196-a71de44e-862a-49d6-86e9-4d9c59f3432f.png)
 
 By adding **add_query_items="xxxxxx"** to the date, you can get the enriched data as well. As you can see the next section - 4. Understand the detail of query in msticpy, {add_query_items} | [code: 34] was available for each query. 
 
