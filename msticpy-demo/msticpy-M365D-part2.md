@@ -1,7 +1,8 @@
 # msticpy - Microsoft 365 Defender part2
 
-// WIP
+// WIP <br>
 
+M365D | process_alerts | Lists alerts associated with a specified process
 ```
 md_prov.M365D.process_alerts(start=-30, file_name="net.exe", add_query_items="| summarize make_set(ProcessCommandLine) by AlertId, Title")
 ```
