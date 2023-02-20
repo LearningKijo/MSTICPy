@@ -34,6 +34,10 @@ msticpy/msticpy/data/queries/m365d/kql_mdatp_alerts.yaml
 
 ## M365D | registry_key_alerts | Lists alerts associated with a specified registry key
 ```
+md_prov.M365D.registry_key_alerts(start=-30, key_name='SOFTWARE/Policies/Microsoft/Windows Defender')
+```
+
+```
 registry_key_alerts:
     description: Lists alerts associated with a specified registry key
     metadata:
