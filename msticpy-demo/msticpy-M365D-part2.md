@@ -4,6 +4,7 @@
 
 
 ## M365D | process_alerts | Lists alerts associated with a specified process
+Regarding reconnaissance phase, the attacker might use "net.exe" to get account information.To list all activities in relation to "net.exe", execute this command.
 ```
 md_prov.M365D.process_alerts(start=-30, file_name="net.exe", add_query_items="| summarize make_set(ProcessCommandLine) by AlertId, Title")
 ```
@@ -31,7 +32,7 @@ md_prov.M365D.process_alerts(start=-30, file_name="net.exe", add_query_items="| 
         aliases:
           - process
 ```
-msticpy/msticpy/data/queries/m365d/[kql_mdatp_alerts.yaml](https://github.com/microsoft/msticpy/blob/main/msticpy/data/queries/m365d/kql_mdatp_alerts.yaml)
+GitHub : msticpy/msticpy/data/queries/m365d/[kql_mdatp_alerts.yaml](https://github.com/microsoft/msticpy/blob/main/msticpy/data/queries/m365d/kql_mdatp_alerts.yaml)
 
 
 
@@ -61,6 +62,6 @@ process_cmd_line:
         description: Command line artifact to search for
         type: str
 ```
-msticpy/msticpy/data/queries/m365d/[kql_mdatp_process.yaml](https://github.com/microsoft/msticpy/blob/main/msticpy/data/queries/m365d/kql_mdatp_process.yaml)
+GitHub : msticpy/msticpy/data/queries/m365d/[kql_mdatp_process.yaml](https://github.com/microsoft/msticpy/blob/main/msticpy/data/queries/m365d/kql_mdatp_process.yaml)
 
 
