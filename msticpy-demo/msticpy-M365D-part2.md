@@ -4,7 +4,7 @@
 
 
 ## M365D | process_alerts | Lists alerts associated with a specified process
-Regarding reconnaissance phase, the attacker might use "net.exe" to get account information.To list all activities in relation to "net.exe", execute this command.
+Regarding reconnaissance phase, the attacker might use "net.exe" to get account information. To list all activities in relation to "net.exe", execute this command.
 ```
 md_prov.M365D.process_alerts(start=-30, file_name="net.exe", add_query_items="| summarize make_set(ProcessCommandLine) by AlertId, Title")
 ```
@@ -37,7 +37,7 @@ GitHub : msticpy/msticpy/data/queries/m365d/[kql_mdatp_alerts.yaml](https://gith
 
 
 ## MDE | process_cmd_line | Lists all processes with a command line containing a string
-
+The attacker might execute the command to turn off Microsoft Defender Antivirus. To list all activities in relation to disabling antivirus tool by registry key, execute this command.
 ```
 md_prov.MDE.process_cmd_line(start=-30, cmd_line="DisableAntiSpyware")
 ```
