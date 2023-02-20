@@ -31,7 +31,7 @@ md_prov.M365D.process_alerts(start=-30, file_name="net.exe", add_query_items="| 
         aliases:
           - process
 ```
-msticpy/msticpy/data/queries/m365d/kql_mdatp_alerts.yaml
+msticpy/msticpy/data/queries/m365d/[kql_mdatp_alerts.yaml](https://github.com/microsoft/msticpy/blob/main/msticpy/data/queries/m365d/kql_mdatp_alerts.yaml)
 
 
 
@@ -61,30 +61,6 @@ process_cmd_line:
         description: Command line artifact to search for
         type: str
 ```
-msticpy/msticpy/data/queries/m365d/kql_mdatp_process.yaml
+msticpy/msticpy/data/queries/m365d/[kql_mdatp_process.yaml](https://github.com/microsoft/msticpy/blob/main/msticpy/data/queries/m365d/kql_mdatp_process.yaml)
 
 
-## M365D | registry_key_alerts | Lists alerts associated with a specified registry key
-```
-md_prov.M365D.registry_key_alerts(start=-30, key_name='SOFTWARE/Policies/Microsoft/Windows Defender')
-```
-
-```
-registry_key_alerts:
-    description: Lists alerts associated with a specified registry key
-    metadata:
-    args:
-      query: '
-        {table}
-        | where Timestamp >= datetime({start})
-        | where Timestamp <= datetime({end})
-        | join kind=inner (AlertEvidence
-        | where Timestamp >= datetime({start})
-        | where Timestamp <= datetime({end})) on AlertId
-        | where EntityType =~ "RegistryValue"
-        | where RegistryKey =~ "{key_name}"
-        {add_query_items}'
-    parameters:
-      key_name:
-        description: The Registry key 
-```
