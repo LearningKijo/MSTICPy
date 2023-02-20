@@ -11,6 +11,6 @@ MSTICPy Docs : [MSTIC Jupyter and Python Security Tools](https://msticpy.readthe
 
 ## Getting Started | demo
 | # | Title | Link |
-|:---|:---:|:---:|
+|:---|:---|:---|
 |1 | msticpy / Getting Started | [msticpy-GettingStarted.md](https://github.com/LearningKijo/MSTICPy/blob/main/msticpy-demo/msticpy-GettingStarted.md) |
 |2 | M365D / Getting Started  | [msticpy-M365D-part1.md](https://github.com/LearningKijo/MSTICPy/blob/main/msticpy-demo/msticpy-M365D-part1.md) |
