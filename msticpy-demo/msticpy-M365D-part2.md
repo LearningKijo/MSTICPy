@@ -2,7 +2,7 @@
 
 // WIP <br>
 
-M365D | process_alerts | Lists alerts associated with a specified process
+## M365D | process_alerts | Lists alerts associated with a specified process
 ```
 md_prov.M365D.process_alerts(start=-30, file_name="net.exe", add_query_items="| summarize make_set(ProcessCommandLine) by AlertId, Title")
 ```
@@ -32,7 +32,7 @@ md_prov.M365D.process_alerts(start=-30, file_name="net.exe", add_query_items="| 
 ```
 msticpy/msticpy/data/queries/m365d/kql_mdatp_alerts.yaml
 
-
+## M365D | registry_key_alerts | Lists alerts associated with a specified registry key
 ```
 registry_key_alerts:
     description: Lists alerts associated with a specified registry key
