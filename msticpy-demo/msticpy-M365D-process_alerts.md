@@ -27,13 +27,22 @@ GitHub : msticpy/msticpy/data/queries/m365d/[kql_mdatp_alerts.yaml](https://gith
 
 
 ## M365D | process_alerts | Lists alerts associated with a specified process
-Regarding reconnaissance phase, the attacker might use "net.exe" to get account information. To list all activities in relation to "net.exe", execute this command.
+
+Case1 : tracking alerts, which are associated with "reg.exe"
+```
+md_prov.M365D.process_alerts(start=-30, file_name="reg.exe")
+```
+![image](https://user-images.githubusercontent.com/120234772/220569738-3b9a3552-7605-479b-97ad-b2b864655d0a.png)
+
+
+Case2 : tracking alerts, which are associated with "net.exe" + added an additional query to list commands for each alert.
 ```
 md_prov.M365D.process_alerts(start=-30, file_name="net.exe", add_query_items="| summarize make_set(ProcessCommandLine) by AlertId, Title")
 ```
 ![image](https://user-images.githubusercontent.com/120234772/219591170-6b256fd0-f304-46ff-87ad-de5516873459.png)
 
-
+#### Disclaimer
+The views and opinions expressed herein are those of the author and do not necessarily reflect the views of company.
 
 
 
