@@ -1,4 +1,4 @@
-# msticpy - Getting Started
+# msticpy - tips Getting Started
 First of all, I am going to cover leveraging msticpy in **"Local Machine"** environment, NOT in Notebooks, Microsoft Sentinel.
 Also, I would like to share some tips for each part.
 1. Creating [a Client App for M365D](https://learn.microsoft.com/en-us/microsoft-365/security/defender-endpoint/exposed-apis-create-app-webapp?view=o365-worldwide)
