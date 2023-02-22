@@ -1,4 +1,4 @@
-# msticpy - Microsoft 365 Defender part1
+# msticpy - Microsoft 365 Defender Getting Started
 Getting Started : I am going to cover the fundamental use of msticpy for Microsoft 365 Defender.<br>
 
 1. Connect to the provider, Microsoft 365 Defender
