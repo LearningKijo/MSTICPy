@@ -1,7 +1,5 @@
 # msticpy - Microsoft 365 Defender part2
 
-// WIP <br>
-
 
 ## M365D | process_alerts | Lists alerts associated with a specified process
 Regarding reconnaissance phase, the attacker might use "net.exe" to get account information. To list all activities in relation to "net.exe", execute this command.
