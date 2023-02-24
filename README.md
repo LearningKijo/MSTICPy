@@ -12,4 +12,5 @@ MSTICPy Docs : [MSTIC Jupyter and Python Security Tools](https://msticpy.readthe
 ## Getting Started | demo
 | # | Title | Link |
 |:---|:---|:---|
-|1 | M365D / Getting Started  | [Microsoft 365 Defender Getting Started](https://github.com/LearningKijo/MSTICPy/blob/main/msticpy-demo/msticpy-M365D-GettingStarted.md) |
+|1 | M365D / Getting Started  | [msticpy-M365D-GettingStarted.md](https://github.com/LearningKijo/MSTICPy/blob/main/msticpy-demo/msticpy-M365D-GettingStarted.md) |
+|2 | M365D / Process Alerts | [msticpy-M365D-process_alerts.md](https://github.com/LearningKijo/MSTICPy/blob/main/msticpy-demo/msticpy-M365D-process_alerts.md)
