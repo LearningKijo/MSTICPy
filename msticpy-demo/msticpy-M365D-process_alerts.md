@@ -37,9 +37,15 @@ md_prov.M365D.process_alerts(start=-30, file_name="reg.exe")
 
 Case2 : tracking alerts, which are associated with "net.exe" + added an additional query to list commands for each alert.
 ```
-md_prov.M365D.process_alerts(start=-30, file_name="net.exe", add_query_items="| summarize make_set(ProcessCommandLine) by AlertId, Title")
+alerts_df = md_prov.M365D.process_alerts(start=-30, file_name="net.exe", add_query_items="| summarize make_set(ProcessCommandLine) by AlertId, Title")
+alerts_df.to_csv('alerts.csv', index=False)
 ```
 ![image](https://user-images.githubusercontent.com/120234772/219591170-6b256fd0-f304-46ff-87ad-de5516873459.png)
+
+![image](https://user-images.githubusercontent.com/120234772/221079025-ae0c25e5-22c3-47ef-95e5-2e51e795301c.png)
+
+![image](https://user-images.githubusercontent.com/120234772/221079291-e1c3190c-2612-4887-a9ea-c05d77342093.png)
+
 
 #### Disclaimer
 The views and opinions expressed herein are those of the author and do not necessarily reflect the views of company.
