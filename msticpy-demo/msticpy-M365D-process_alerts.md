@@ -35,7 +35,7 @@ md_prov.M365D.process_alerts(start=-30, file_name="reg.exe")
 ![image](https://user-images.githubusercontent.com/120234772/220569738-3b9a3552-7605-479b-97ad-b2b864655d0a.png)
 
 
-Case2 : tracking alerts, which are associated with "net.exe" + added an additional query to list commands for each alert.
+Case2 : tracking alerts, which are associated with "net.exe" + added an additional query to list commands for each alert. After that, exporting a csv file.
 ```
 alerts_df = md_prov.M365D.process_alerts(start=-30, file_name="net.exe", add_query_items="| summarize make_set(ProcessCommandLine) by AlertId, Title")
 alerts_df.to_csv('alerts.csv', index=False)
