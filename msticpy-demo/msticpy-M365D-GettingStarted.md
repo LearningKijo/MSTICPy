@@ -7,9 +7,8 @@ Getting Started : I am going to cover the fundamental use of msticpy for Microso
 4. Understand the detail of query in msticpy, Microsoft 365 Defender
 
 ## 0. Prerequisite
-Before connecting to the provider, Microsoft 365 Defender, a few preparations are necessary such as API permission in AAD app, msticpyconfig.yaml, install jupyter notebook, install msticpy and so on - [MSTICPy | Microsoft 365 Defender Provider](https://msticpy.readthedocs.io/en/latest/data_acquisition/DataProv-MSDefender.html). In this page, I am covering the use for msticpy, Microsoft 365 Defender, on the local device, NOT Notebooks, Microsoft Sentinel.
 
-Before connecting to Microsoft 365 Defender as a data provider, a few preparations are necessary, such as obtaining API permission for an Azure Active Directory app, configuring msticpyconfig.yaml, installing Jupyter Notebook, installing MSTICPy, and more. You can find detailed instructions on how to set up and use MSTICPy with Microsoft 365 Defender as a provider on this page. Please note that this guide focuses on using msticpy and Microsoft 365 Defender on your local device, not with Microsoft Sentinel or Notebooks.
+Before connecting to Microsoft 365 Defender as a data provider, a few preparations are necessary, such as obtaining API permission for an Azure Active Directory app, configuring msticpyconfig.yaml, installing Jupyter Notebook, installing MSTICPy, and more. You can find detailed instructions on how to set up and use MSTICPy with Microsoft 365 Defender as a provider on [this page](https://msticpy.readthedocs.io/en/latest/data_acquisition/DataProv-MSDefender.html). Please note that this guide focuses on using msticpy and Microsoft 365 Defender on your local device, not with Microsoft Sentinel or Notebooks.
 
 ## 1. Connect to the provider, Microsoft 365 Defender
 ![image](https://user-images.githubusercontent.com/120234772/218461249-e3fc945d-4d49-471b-8b04-ea0bc6332d37.png)
