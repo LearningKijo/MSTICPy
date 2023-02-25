@@ -9,6 +9,9 @@ MSTICPy is a Python library of Cybersecurity tools built by Microsoft, which pro
 MSTICPy GitHub : [MSTIC Jupyter and Python Security Tools](https://github.com/microsoft/msticpy)<br>
 MSTICPy Docs : [MSTIC Jupyter and Python Security Tools](https://msticpy.readthedocs.io/en/latest/GettingStarted.html)
 
+## MSTICPy Webinars
+WIP
+
 ## Getting Started | demo
 Please note that this guide focuses on using msticpy and Microsoft 365 Defender on your local device, not with Microsoft Sentinel or Notebooks.
 
