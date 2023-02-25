@@ -12,6 +12,7 @@ MSTICPy Docs : [MSTIC Jupyter and Python Security Tools](https://msticpy.readthe
 ## Getting Started | demo
 Please note that this guide focuses on using msticpy and Microsoft 365 Defender on your local device, not with Microsoft Sentinel or Notebooks.
 
+### Querying and Importing Data
 | # | Title | Link |
 |:---|:---|:---|
 |1 | M365D / Getting Started  | [msticpy-M365D-GettingStarted.md](https://github.com/LearningKijo/MSTICPy/blob/main/msticpy-demo/msticpy-M365D-GettingStarted.md) |
