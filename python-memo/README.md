@@ -6,6 +6,7 @@ I will put something I learned a new in Python.
 |:---|:---|:---|:---|
 |Jupyter Notebook | IDE | Supports other programming languages | Runs on a **web browser**. | 
 |Google Colaboratory | IDE |  Python | Runs on a **web browser**. |
+|PyCharm| IDE | Supports other programming languages | Offers advanced features such as intelligent code completion, powerful debugging, code refactoring, and built-in support for testing. |
 |IDLE | IDE | Python | Python-specific IDE. Default IDE that comes with Python installation. |
 |Visual Studio | IDE | Supports other programming languages |Microsoft-provided IDE. |
 |Atom| Editor | Supports other programming languages | GitHub-provided code editor. |
