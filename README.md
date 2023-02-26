@@ -9,7 +9,16 @@ MSTICPy GitHub : [MSTIC Jupyter and Python Security Tools](https://github.com/mi
 MSTICPy Docs : [MSTIC Jupyter and Python Security Tools](https://msticpy.readthedocs.io/en/latest/GettingStarted.html)
 
 ## MSTICPy Webinars
-WIP
+1. 
+
+## Microsoft Sentinel Notebooks Ninja
+| Series | Title |
+|:---|:---|
+| Part 1 | [What are notebooks and when do you need them?](https://techcommunity.microsoft.com/t5/microsoft-sentinel-blog/becoming-a-microsoft-sentinel-notebooks-ninja-the-series/ba-p/2693491) |
+| Part 2 | [How to get started with notebooks and tour of the features](https://techcommunity.microsoft.com/t5/microsoft-sentinel-blog/microsoft-sentinel-notebooks-ninja-part-2-getting-started-with/ba-p/2716661) |
+| Part 3 | [Overview of the pre-built notebooks and how to use them](https://techcommunity.microsoft.com/t5/microsoft-sentinel-blog/microsoft-sentinel-notebooks-ninja-part-2-getting-started-with/ba-p/2716661) | 
+| Part 3.5 | [Using Code Snippets to build your own Sentinel Notebooks](https://techcommunity.microsoft.com/t5/microsoft-sentinel-blog/using-code-snippets-to-build-your-own-sentinel-notebooks/ba-p/2965208) |
+| Part 4 | [How to create your own notebooks from scratch and how to customize the existing ones](https://techcommunity.microsoft.com/t5/microsoft-sentinel-blog/using-code-snippets-to-build-your-own-sentinel-notebooks/ba-p/2965208) |
 
 ## Getting Started | demo
 Please note that this guide focuses on using msticpy and Microsoft 365 Defender on your local device, not with Microsoft Sentinel or Notebooks.
