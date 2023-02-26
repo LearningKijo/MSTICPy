@@ -1,4 +1,4 @@
-# Python memo
+# Python environment-setup
 I will put something I learned a new in Python.
 
 ### 
