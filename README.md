@@ -11,7 +11,7 @@ MSTICPy Docs : [MSTIC Jupyter and Python Security Tools](https://msticpy.readthe
 ## MSTICPy Learning resources  
 
 ### MSTICPy Webinars
-Want to become a Notebooks Ninja? Watch the Webinars: 
+Would you like to become ***a Notebooks Ninja***? Watch the Webinars !!
 1. [Getting Started - YouTube](https://www.youtube.com/watch?v=JLOhfoovASE&t=2s)
 2. [MSTICPy Fundamentals - YouTube](https://www.youtube.com/watch?v=S0knTOnA2Rk)
 3. [MSTICPy Intermediate - YouTube](https://www.youtube.com/watch?v=Rpj-FS_0Wqg)
