@@ -8,15 +8,17 @@ MSTICPy is an open-source Python package developed by Microsoft that provides a 
 MSTICPy GitHub : [MSTIC Jupyter and Python Security Tools](https://github.com/microsoft/msticpy)<br>
 MSTICPy Docs : [MSTIC Jupyter and Python Security Tools](https://msticpy.readthedocs.io/en/latest/GettingStarted.html)
 
-## MSTICPy Webinars
+## MSTICPy Learning resources  
+
+### MSTICPy Webinars
 Want to become a Notebooks Ninja? Watch the Webinars: 
 1. [Getting Started - YouTube](https://www.youtube.com/watch?v=JLOhfoovASE&t=2s)
 2. [MSTICPy Fundamentals - YouTube](https://www.youtube.com/watch?v=S0knTOnA2Rk)
 3. [MSTICPy Intermediate - YouTube](https://www.youtube.com/watch?v=Rpj-FS_0Wqg)
 
-Reference : [Become a Microsoft Sentinel Ninja: The complete level 400 training](https://techcommunity.microsoft.com/t5/microsoft-sentinel-blog/become-a-microsoft-sentinel-ninja-the-complete-level-400/ba-p/1246310)
+> Reference : [Become a Microsoft Sentinel Ninja: The complete level 400 training](https://techcommunity.microsoft.com/t5/microsoft-sentinel-blog/become-a-microsoft-sentinel-ninja-the-complete-level-400/ba-p/1246310)
 
-## Microsoft Sentinel Notebooks Ninja
+### Microsoft Sentinel Notebooks Ninja
 | Series | Title |
 |:---|:---|
 | Part 1 | [What are notebooks and when do you need them?](https://techcommunity.microsoft.com/t5/microsoft-sentinel-blog/becoming-a-microsoft-sentinel-notebooks-ninja-the-series/ba-p/2693491) |
