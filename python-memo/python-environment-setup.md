@@ -1,6 +1,11 @@
 # Python environment-setup
-memo
-### 
+
+### How did I start learning Python? 
+1. Install [Anaconda](https://www.anaconda.com/) on Windows 11 
+### Why did I select Anaconda? 
+Anaconda is a great choice for starting to learn Python. It comes with many pre-installed packages and tools that are useful for scientific computing and data analysis. Additionally, Anaconda includes the Jupyter Notebook, which is an interactive environment that allows you to write and execute Python code, as well as add formatted text and visualizations to your notebooks. This makes it easy to experiment with Python code and learn in a hands-on way.
+
+### Examples
 | Name | Classification | Languages | Comment |
 |:---|:---|:---|:---|
 |Jupyter Notebook | IDE | Supports other programming languages | Runs on a **web browser**. | 
