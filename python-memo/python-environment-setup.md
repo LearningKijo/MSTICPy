@@ -15,4 +15,4 @@ Anaconda is a great choice for starting to learn Python. It comes with many pre-
 |Visual Studio | IDE | Supports other programming languages |Microsoft-provided IDE. |
 |Atom| Editor | Supports other programming languages | GitHub-provided code editor. |
 |Visual Studio Code | Editor | Supports other programming languages | Microsoft-provided code editor. |
-|Anaconda | Python environment setup support software | Python | It is designed to simplify the process of installing and managing Python packages and their dependencies, especially those related to data science and machine learning. | 
+|**Anaconda** | Python environment setup support software | Python | It is designed to simplify the process of installing and managing Python packages and their dependencies, especially those related to data science and machine learning. | 
