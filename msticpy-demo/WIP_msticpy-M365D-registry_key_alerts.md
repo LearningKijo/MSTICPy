@@ -21,3 +21,5 @@ M365D - registry_key_alerts - Lists alerts associated with a specified registry 
         type: str     
 ```
 > **GitHub** : msticpy/msticpy/data/queries/m365d/[kql_mdatp_alerts.yaml](https://github.com/microsoft/msticpy/blob/main/msticpy/data/queries/m365d/kql_mdatp_alerts.yaml)
+
+## M365D - registry_key_alerts - Lists alerts associated with a specified registry key
