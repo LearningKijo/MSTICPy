@@ -33,5 +33,5 @@ Please note that this guide focuses on using msticpy and Microsoft 365 Defender 
 ### Querying and Importing Data
 | # | Title | Link |
 |:---|:---|:---|
-|1 | M365D / Getting Started  | [msticpy-M365D-GettingStarted.md](https://github.com/LearningKijo/MSTICPy/blob/main/msticpy-demo/msticpy-M365D-GettingStarted.md) |
+|1 | M365D / Getting Started  | [msticpy-Tips-GettingStarted.md](https://github.com/LearningKijo/MSTICPy/blob/main/msticpy-demo/msticpy-tips-GettingStarted.md)<br>[msticpy-M365D-GettingStarted.md](https://github.com/LearningKijo/MSTICPy/blob/main/msticpy-demo/msticpy-M365D-GettingStarted.md) |
 |2 | M365D / Process Alerts | [msticpy-M365D-process_alerts.md](https://github.com/LearningKijo/MSTICPy/blob/main/msticpy-demo/msticpy-M365D-process_alerts.md)
