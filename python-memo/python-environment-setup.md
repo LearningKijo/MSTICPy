@@ -1,6 +1,5 @@
 # Python environment-setup
-I will put something I learned a new in Python.
-
+memo
 ### 
 | Name | Classification | Languages | Comment |
 |:---|:---|:---|:---|
