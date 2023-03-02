@@ -36,11 +36,19 @@ md_prov.M365D.registry_key_alerts(start=-30, key_name=r"software\\policies\\micr
 ```
 #### **Tip**
 As I don't have a background in programming, I wasn't previously familiar with this particular aspect.
-> Mistake :
-> >
-> Correct :
+> **Mistake :**
+> ![image](https://user-images.githubusercontent.com/120234772/222354687-83c0c92b-c639-45c5-afe1-2bf9d5c1bbe5.png)
+>
+>![image](https://user-images.githubusercontent.com/120234772/222354609-2de8d06a-434f-4e01-a79c-02603edb160d.png)
+> **Correct :** <br>
+> md_prov.M365D.registry_key_alerts(start=-30, key_name=r"software\\policies\\microsoft\\windows defender")
+> ![image](https://user-images.githubusercontent.com/120234772/222354876-f6a41f79-7dc4-48ef-bc42-0575fe9d3ed6.png)
+>
+> md_prov.M365D.registry_key_alerts(start=-30, key_name="software\\\\\\\\policies\\\\\\\\microsoft\\\\\\\\windows defender")
+> ![image](https://user-images.githubusercontent.com/120234772/222355015-a246a65c-7523-4451-8923-dfcb3ffaa2eb.png)
 
 
+#### demo
 ![image](https://user-images.githubusercontent.com/120234772/221597336-44698318-9cdb-4f23-92c4-93371c6c2abe.png)
 
 #### Disclaimer
