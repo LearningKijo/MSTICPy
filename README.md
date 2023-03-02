@@ -35,3 +35,4 @@ Please note that this guide focuses on using msticpy and Microsoft 365 Defender 
 |:---|:---|:---|
 |1 | M365D / Getting Started  | [msticpy-Tips-GettingStarted.md](https://github.com/LearningKijo/MSTICPy/blob/main/msticpy-demo/msticpy-tips-GettingStarted.md)<br>[msticpy-M365D-GettingStarted.md](https://github.com/LearningKijo/MSTICPy/blob/main/msticpy-demo/msticpy-M365D-GettingStarted.md) |
 |2 | M365D / Process Alerts | [msticpy-M365D-process_alerts.md](https://github.com/LearningKijo/MSTICPy/blob/main/msticpy-demo/msticpy-M365D-process_alerts.md)
+|3 | M365D / Registry Key Alerts | [msticpy-M365D-registry_key_alerts.md](https://github.com/LearningKijo/MSTICPy/blob/main/msticpy-demo/msticpy-M365D-process_alerts.md) |
