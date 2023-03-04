@@ -18,6 +18,9 @@ Would you like to become ***a Notebooks Ninja***? Watch the Webinars !!
 
 > Reference : [Become a Microsoft Sentinel Ninja: The complete level 400 training](https://techcommunity.microsoft.com/t5/microsoft-sentinel-blog/become-a-microsoft-sentinel-ninja-the-complete-level-400/ba-p/1246310)
 
+### BlueHat 2023 Lightning Talk
+1. [MSTICPy overview](https://www.youtube.com/watch?v=lpryRWwbgj8)
+
 ### Microsoft Sentinel Notebooks Ninja
 | Series | Title |
 |:---|:---|
